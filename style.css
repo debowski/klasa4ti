@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 18px;
 }
@@ -10,7 +11,7 @@ header {
   background: red;
   display: flex;
   flex-direction: row;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .logo {
@@ -23,10 +24,10 @@ header {
 }
 
 .nawigacja li {
-    display: inline-block;
-    padding: 1rem 4rem;
-    margin: 0 auto;
-    background: grey;
+  display: inline-block;
+  padding: 1rem 4rem;
+  margin: 0 auto;
+  background: grey;
 }
 
 .nawigacja li a {

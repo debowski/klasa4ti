@@ -8,16 +8,16 @@ html {
 }
 
 header {
-  background: orange;
-  display: flex;
+  background: #99ffff;
+  /*display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 .logo {
   height: 3.16rem;
-  padding-right: 4em;
-}
+  float:left;
+  }
 
 .nawigacja {
   background: green;
@@ -25,11 +25,18 @@ header {
 
 .nawigacja li {
   display: inline-block;
+  font-size: 18px;
   padding: 1rem 4rem;
   margin: 0 auto;
   background: grey;
 }
 
-.nawigacja li a {
+.nawigacja  a {
   text-decoration: none;
+  color: red;
+}
+
+.nawigacja  a:hover {
+  text-decoration: none;
+  color: green;
 }

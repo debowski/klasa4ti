@@ -11,7 +11,7 @@ header {
   text-align: center;
 }
 
-section {
+section.sekcja {
   display: flex;
   background: lightgrey;
   padding: 0px;
@@ -21,6 +21,10 @@ article {
   border: solid 1px navy;
   padding: 10px;
   flex: 1; /*wszystkie kolumny o tej samej szerokości */
+}
+
+article:nth-of-type(2){
+  flex:3;
 }
 
 footer {

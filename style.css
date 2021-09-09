@@ -3,40 +3,32 @@
   padding: 0;
 }
 
-html {
-  font-size: 18px;
+.wrapper {
+  background: navy;
+  height: 100vh;
 }
 
-header {
-  background: #99ffff;
-  /*display: flex;
-  flex-direction: row;
-  justify-content: center;*/
+.klasa1 {
+  background: red;
+  height: 10%;
 }
-
-.logo {
-  height: 3.16rem;
-  float:left;
-  }
-
-.nawigacja {
+.klasa2 {
   background: green;
+  height: 80%;
 }
 
-.nawigacja li {
-  display: inline-block;
-  font-size: 18px;
-  padding: 1rem 4rem;
-  margin: 0 auto;
-  background: grey;
+.menu {
+  background: yellow;
+  height: 100%;
+  width: 200px;
+  float: left;
+}
+.ramka {
+  background: orange;
+  height: 100%;
 }
 
-.nawigacja  a {
-  text-decoration: none;
-  color: red;
-}
-
-.nawigacja  a:hover {
-  text-decoration: none;
-  color: green;
+.klasa3 {
+  background: blue;
+  height: 10%;
 }

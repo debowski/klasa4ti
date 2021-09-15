@@ -18,7 +18,7 @@ section.sekcja {
 }
 
 article {
-  border: solid 1px navy;
+  border: solid 1px pink;
   padding: 10px;
   flex: 1; /*wszystkie kolumny o tej samej szerokości */
 }
@@ -30,4 +30,14 @@ article:nth-of-type(2){
 footer {
   height: 50px;
   background: navy;
+  vertical-align: middle;
+}
+
+
+
+
+p {
+  letter-spacing: 0px;
+  text-align: justify;
+  text-indent: 2px;
 }

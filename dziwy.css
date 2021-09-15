@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  min-height: 100px;
+  font-size: 18px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background: red;
+  border: 1px solid black
+}
+
+.blok {
+  display: inline-flex;
+  width: 100%;
+}
+
+.kom1 { width: 20%; }
+.kom2 { width: 80%;}
+.kom3 { width: 70%;}
+.kom4 { width: 30%;}
+.kom5 { width: 30%;}
+.kom6 { width: 40%;}
+.kom7 { width: 30%;}
+
+.kolor1 {  background-color: yellow; }
+.kolor2 {  background-color: green; }
+.kolor3 {  background-color: orange; }
+.kolor4 {  background-color: lightgrey; }
+.kolor5 {  background-color: lightblue; }
+.kolor6 {  background-color: pink; }
+.kolor7 {  background-color: #990000; }
+.kolor8 {  background-color: #55cc00; }
+.kolor9 {  background-color: #223344; }

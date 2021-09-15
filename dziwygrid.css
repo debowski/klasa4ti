@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+
+}
+
+.wrapper {
+  width: 1000px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.jeden {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+.dwa {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+.trzy {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.cztery {
+  grid-column: 3/4;
+  grid-row: 2;
+}
+
+.piec {
+  grid-column: 1/2;
+  grid-row: 3;
+}
+.szesc {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+
+.siedem {
+  grid-column: 3/4;
+  grid-row: 3;
+}
+
+
+
+div {
+  border: 1px solid black;
+}
+
+.kolor1 {  background-color: yellow; }
+.kolor2 {  background-color: green; }
+.kolor3 {  background-color: orange; }
+.kolor4 {  background-color: navy; }
+.kolor5 {  background-color: lightblue; }
+.kolor6 {  background-color: pink; }
+.kolor7 {  background-color: #990000; }
+.kolor8 {  background-color: #55cc00; }
+.kolor9 {  background-color: #223344; }

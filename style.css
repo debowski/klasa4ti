@@ -4,12 +4,12 @@
 }
 
 .wrapper {
-  background: navy;
+  background: WhiteSmoke;
   height: 100vh;
 }
 
 .klasa1 {
-  background: red;
+  background: #990000;
   height: 10%;
 }
 .klasa2 {
